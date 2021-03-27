@@ -1,7 +1,7 @@
 title: hhwyt
 subtitle: The life of a frustrated engineer
 
-url: "https://hhwyt.github.io"
+url: "https://hhwyt.xyz"
 baseurl: "/"
 
 profile-picture: assets/profile.png
@@ -16,4 +16,4 @@ navbar:
  - name: "About"
    link: "about"
  - name: "Resume"
-   absolute-link: "https://hhwyt.github.io/resume.pdf"
+   absolute-link: "https://hhwyt.xyz/resume.pdf"
