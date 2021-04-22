@@ -15,5 +15,5 @@ sass:
 navbar:
  - name: "About"
    link: "about"
- - name: "Resume"
-   absolute-link: "https://hhwyt.xyz/resume.pdf"
+# - name: "Resume"
+#   absolute-link: "https://hhwyt.xyz/resume.pdf"
