@@ -207,7 +207,7 @@ F1 是 Google 的关键支撑系统，它必须得时刻保持稳定可用，否
 DeleteOnly 状态和 WriteOnly 状态显然是兼容的，它们不存在孤儿数据问题也都不要求数据完整。WriteOnly 状态和 Public 状态也是兼容的，因为：
 
 1. WriteOnly 和 Public 两个状态下的 Schema 都对 delete 操作可见，杜绝了孤儿数据问题。
-2. WriteOnly 状态下，通过两个手段保证数据的完整性。CREATE INDEX 在这个状态下：（1）写入增量数据的同时自动添加 IndexKV。（2）在转换到 Public 状态前，为所有存量数据补全 IndexKV，即所谓的 reorg。
+2. WriteOnly 状态下，会对存量和增量数据进行处理，以保证数据的完整性。CREATE INDEX 在这个状态下：（1）写入增量数据的同时自动添加 IndexKV。（2）在转换到 Public 状态前，为所有存量数据补全 IndexKV，即所谓的 reorg。
 
 通过以上分析可知，「三步走」方案通过引入两个必要的中间状态，保证了状态转换中相邻状态都是兼容的，正确地实现了 CREATE INDEX 这个 Schema 变更。我们引申触类一下，便能用该方案来解决其他类型的 Schema 变更问题。
 
