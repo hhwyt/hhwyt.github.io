@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f7f2e7"/>
+<path d="M 14.0 20.0 Q 15.5 118.3 14.0 167.5 Q 12.6 216.7 12.8 265.8 Q 12.9 315.0 14.0 364.2 Q 15.0 413.3 14.5 462.5 Q 14.0 511.7 14.0 560.8 L 14.0 610.0 " fill="none" stroke="#3a6ea5" stroke-width="7" stroke-linecap="round"/>
+<text x="90" y="270" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'WenQuanYi Zen Hei', 'Microsoft YaHei', system-ui, sans-serif" font-size="108" font-weight="700" fill="#2b2620">40 岁一个亿</text>
+<path d="M 90.0 320.0 Q 207.5 320.2 266.3 320.3 Q 325.0 320.5 383.8 320.4 Q 442.5 320.3 501.3 319.1 L 560.0 318.0 " fill="none" stroke="#c96a3e" stroke-width="3" stroke-linecap="round"/>
+<text x="90" y="380" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'WenQuanYi Zen Hei', 'Microsoft YaHei', system-ui, sans-serif" font-size="34" fill="#5c5346">300 万 <tspan fill="#8a8070">→</tspan> 1 亿，十年，一次认真核算过的赌注</text>
+<text x="90" y="560" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'WenQuanYi Zen Hei', 'Microsoft YaHei', system-ui, sans-serif" font-size="22" fill="#8a8070">一篇关于目标、复利与不被目标反噬的自我审讯</text>
+</svg>
