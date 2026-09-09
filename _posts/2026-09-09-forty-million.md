@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 40 岁一个亿
-categories: [personal-development]
+categories: [Personal Development]
 toc: true
 toc_label: "目录"
 toc_icon: "cog"
